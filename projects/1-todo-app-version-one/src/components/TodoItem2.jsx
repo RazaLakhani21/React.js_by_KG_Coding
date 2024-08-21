@@ -7,16 +7,16 @@ function TodoItem2() {
 
   return (
     <div>
-      <div class="container text-center p-2 g-col-6">
-          <div class="row">
-            <div class="col-6">
+      <div className="container">
+          <div className="row kg-row">
+            <div className="col-6">
               <label>{TodoName}</label>
             </div>
-            <div class="col-4">
+            <div className="col-4">
               <label>{TodoDate}</label>
             </div>
-            <div class="col-2">
-            <button type="button" class="btn btn-danger">Delete</button>
+            <div className="col-2">
+            <button type="button" className="btn btn-danger kg-button">Delete</button>
             </div>
           </div>
         </div>
