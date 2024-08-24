@@ -9,4 +9,4 @@ function PracticeProps(props) {
     </>
   )
 }
-export default PracticeProps
+export default PracticeProps;
