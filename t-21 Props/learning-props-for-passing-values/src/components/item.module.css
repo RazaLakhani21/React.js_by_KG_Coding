@@ -1,0 +1,9 @@
+/* Naming it as '.module' makes it easy to understand that we (a user) wants to use "Module" */
+
+.kg-item{
+    background-color: khaki;   
+   } 
+.kg-span{
+       font-weight: 600;
+       color: blue;
+   }

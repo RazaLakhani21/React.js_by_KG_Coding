@@ -1,0 +1,19 @@
+/* .kg-item{
+    background-color: khaki;   
+   } */
+   
+/* .kg-span{
+       font-weight: 600;
+       color: blue;
+   } */
+
+   /* Now as it's helpful and convinient to use CSS modules
+   therefore, we're transfering the above two classes in './item.modules.css'
+   
+   Using modules makes it easy as it includes an unique id with the classes used in the .modules.CSS , which helps in localizing the css Class (if there are any of same name)*/
+
+   .food-heading{
+    background-color: silver;
+    font-weight: 700;
+    color: darkviolet;
+   }
