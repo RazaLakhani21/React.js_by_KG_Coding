@@ -1,14 +1,12 @@
-// Removed "TodoItem2" as we've to make it a single component and not want to create many components like it, as we've learnt about props, so why not implement it !
-
 import React from 'react'
 
-function TodoItem1() {
+function TodoItem({TodoName, TodoDate}) {
 
-    
+
 
   return (
-    <div>
-      <div className="container">
+    <>
+       <div className="container">
           <div className="row kg-row">
             <div className="col-6">
               <label>{TodoName}</label>
@@ -21,8 +19,8 @@ function TodoItem1() {
             </div>
           </div>
         </div>
-    </div>
+    </>
   )
 }
 
-export default TodoItem1
+export default TodoItem;

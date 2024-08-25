@@ -1,22 +1,33 @@
 import AppName from "./components/AppName";
 import AddToDo from "./components/AddToDo";
-import TodoItem1 from "./components/TodoItem1";
+import ToDoItems from "./components/ToDoItems";
 import "./App.css";
 
 function App() {
-
-
-  let TodoName = "Buy Milk";
-  let TodoDate = "04/06/2022";
+  const todoItems = [
+    {
+      id: 0,
+      taskName: "Buy Milk",
+      dueDate: "04/06/2023"
+    },
+    {
+      id: 2,
+      taskName: "Go To College",
+      dueDate: "15/12/2023"
+    },
+    {
+      id: 3,
+      taskName: "Go to Gyyyymmmm",
+      dueDate: "Right now"
+    }
+  ];
 
   return (
     <>
       <center className="todo-container">
         <AppName />
         <AddToDo />
-        <div className="items-container">
-          <TodoItem1 />
-        </div>
+        <ToDoItems key={todoItems["1","2","3"]} todoItemsKaObjKoReferKrrha={todoItems} />
       </center>
     </>
   );
