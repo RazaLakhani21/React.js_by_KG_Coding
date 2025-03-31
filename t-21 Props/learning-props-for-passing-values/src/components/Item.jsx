@@ -3,10 +3,11 @@ import styles from "./item.module.css"; // A different way to Import 'css-module
 
 // "One Way to use Props"
 
-function Item({foodItem}) {
+function Item(props) {
   return (
     <li className={`${styles["kg-item"]} list-group-item`}>
-      <span className={styles["kg-span"]}>{foodItem}</span>
+      <span className={styles["kg-span"]}>{props.foodItem}</span>  
+      {/* If Get any Error Change this       👆       back to {foodItem} */}
     </li>
   );
 }
