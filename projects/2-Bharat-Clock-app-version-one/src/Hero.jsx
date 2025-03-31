@@ -4,7 +4,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className="lead">
-      This the clock that shos the time in Bharat at all times
+      This is the clock that shows the time of Bharat at all times.
     </div>
   )
 }
