@@ -1,0 +1,13 @@
+.kg-row{
+    margin: 10px;
+    /* margin left to right is not getting applied here, don't know why 😩 ?? */
+}
+
+.kg-button{
+    /* min-width: 133px;  not needed for my part 😉, So I just Commented it ! */
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+}
