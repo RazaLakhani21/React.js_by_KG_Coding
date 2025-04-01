@@ -6,15 +6,15 @@
     display: flex;
     font-size: 25px;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 14px;
     margin: 0 12px;
     justify-content: center;
 }
 
 .button{
     font-family: "Rubik", sans-serif;
-    padding: 10px 25px;
-    border: 0.5px solid black;
+    padding: 15px 25px;
+    border: 1px solid black;
     border-radius: 5px;
     font-weight: 500;
 }
